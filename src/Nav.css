@@ -1,0 +1,20 @@
+.nav {
+  text-align: center;
+  margin-top: 1rem;
+  font-family: Arial, serif;
+}
+
+.nav li {
+  padding-right: 2.5rem;
+  display: inline;
+}
+
+.nav a {
+  color: #67B1FF;
+  padding: 0.685rem;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  border-bottom: 3px solid #67B1FF;
+}

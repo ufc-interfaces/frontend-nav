@@ -1,13 +1,16 @@
 // noinspection HtmlUnknownTarget
-
 import React, { FC } from 'react'
+import './Nav.css'
 
 const Nav: FC = () => {
   return (
-    <ul style={{ listStyle: 'none', display: 'flex' }}>
-      <li><a href="/">Home</a></li>&nbsp;&nbsp;
-      <li><a href="/login">Login</a></li>
-    </ul>
+    <header className="nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/editor">Petri Editor</a></li>
+        <li><a href="/login">Login</a></li>
+      </ul>
+    </header>
   )
 }
 
