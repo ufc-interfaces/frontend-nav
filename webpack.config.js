@@ -50,7 +50,6 @@ module.exports = {
         './Nav': './src/Nav',
       },
       shared: {
-        ...deps,
         react: { eager: true, singleton: true, requiredVersion: deps['react'].version },
         'react-dom': { eager: true, singleton: true, requiredVersion: deps['react-dom'].version },
       },
@@ -60,3 +59,4 @@ module.exports = {
     }),
   ],
 };
+
